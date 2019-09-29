@@ -6,7 +6,7 @@ module.exports = {
   host: 'localhost',
   username: 'postgres',
   password: 'docker',
-  database: 'gobarder',
+  database: 'gobarber',
   define: {
     timestamps: true, // Garante a criação de uma coluna chamada updated_at e uma coluna created_at em cada tabela do BD, vão armazenar a data de criação e edição de cada registro.
     underscored: true, // "Fala" para o sequelize que o formato a ser utilizado para salvar o nome das tabelas deve ser nova_tabela e não NovaTabelas que é o padrão do sequelize...
