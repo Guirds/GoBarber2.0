@@ -1,6 +1,9 @@
 import express from 'express';
 import routes from './routes';
 
+// Como não é necessário ter um retorno do arquivo, basta apenas chamar ele
+import './database';
+
 class App {
   constructor() {
     this.server = express();
