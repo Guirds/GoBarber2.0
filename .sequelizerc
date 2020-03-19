@@ -1,7 +1,5 @@
 //Exporta os caminhos onde as pastas que são relacionadas ao banco de dados estão.
-const {
-  resolve
-} = require('path') // Padroniza os caminhos, tanto em linux,windows e mac.
+const { resolve } = require('path') // Padroniza os caminhos, tanto em linux,windows e mac.
 
 module.exports = {
   config: resolve(__dirname, 'src', 'config', 'database.js'),

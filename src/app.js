@@ -5,6 +5,7 @@ import routes from './routes';
 import './database';
 
 class App {
+  // Executa automaticamente sempre que a class for chamada
   constructor() {
     this.server = express();
 
